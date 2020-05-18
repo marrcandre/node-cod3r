@@ -4,9 +4,10 @@ function helloWorld()
 }
 
 const saudacao = () => {
-    var data = new Date()
-    //return data.getHours()
     return data.getHours() <= 12? "Bom dia!": data.getHours() <= 18? "Boa tarde!": "Boa noite!";
+    var data = new Date()
 }
+
+//Aqui começa a chamar as funções
 helloWorld();
-console.log(`A saudação do momento é ` + saudacao());
+console.log(`A saudação do momento é ` + saudacao())
