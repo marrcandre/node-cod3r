@@ -1,3 +1,4 @@
+//Função Alô Mundo
 function helloWorld()
 {
     console.log("Hello World!");
