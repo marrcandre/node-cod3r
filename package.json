@@ -1,0 +1,26 @@
+{
+  "name": "node-cod3r",
+  "version": "1.0.0",
+  "description": "Curso de NodeJS com vscode da Cod3r",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marrcandre/node-cod3r.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marrcandre/node-cod3r/issues"
+  },
+  "homepage": "https://github.com/marrcandre/node-cod3r#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
